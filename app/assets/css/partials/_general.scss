@@ -5121,3 +5121,113 @@ background-color: #F5F6F6;
   }
   footer{min-height: 80vh;}
   .flex-1{flex: 1;}
+
+  .step-card {
+    border-radius: 8px;
+    height: 100%;
+    background-color: #F5F6F6;
+    display: flex !important;
+    flex-direction: column !important;
+    border: 0!important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    justify-content: space-between;
+}
+
+.step-card h3 {
+  padding-top: 1rem;
+  margin-bottom: 1rem !important;
+}
+.step-card a {
+  background-color: var(--sys-primary-primary);
+  border-color: var(--sys-primary-primary);
+  border-radius: 4px;
+  padding: 10px 24px;
+  color: var(--white);
+  font-size: 14px!important;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: DINPro;
+  margin-bottom: 1rem!important;
+  display: inline-block!important;
+  width: 100%;
+  text-align: center;
+}
+.step-card p {
+  padding-bottom: 2rem;
+}
+.step-card svg {
+  margin-right: 0.5rem!important;
+}
+ul.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+.contact-up {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.contact-section-1 {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+iframe {
+  border-radius: .25rem !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+ul.contact-list li:nth-child(1),ul.contact-list li:nth-child(2) {
+  margin-bottom: 1.5rem;
+}
+ul.contact-list .step-card {
+  min-height: 300px;
+}
+.faq-section {
+  min-height: auto;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  background-color: #F1F1F2;
+}
+.faq-section h2 {
+  font-size: 5.5rem!important;
+  line-height: 1;
+  color: var(--sys-neutral-on-background) !important;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 3rem !important;
+  border-bottom: 0;
+  padding-bottom: 0 !important;
+}
+button.accordion-button {
+  font-size: 1.75rem !important;
+  line-height: 1.4;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  color: #101820!important;
+}
+.accordion-body.px-0 a {
+  color: var(--sys-primary-primary) !important;
+}
+.accordion-header{    
+  border-bottom: 1px solid #d4d1d0;
+  background-color: transparent !important;
+  }
+  .accordion-item
+  {
+      background-color: transparent !important;
+      border: 0 !important;
+  }
+  .accordion-body {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}

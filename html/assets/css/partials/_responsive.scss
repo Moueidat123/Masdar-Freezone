@@ -77,6 +77,14 @@
     .white-paper-modal .modal-body{width: 100%;}
 }
 @media (min-width: 100px) and (max-width: 991px) {
+    .faq-section h2 {
+        font-size: 3rem!important;}
+    .contact-section-1 .col-lg-6:first-child {
+        margin-bottom: 1.5rem;
+    }
+    ul.contact-list li {
+        margin-bottom: 1.5rem;
+      }
     .content-first-fold h1{
         font-size: 36px!important;
         width: 100%;
@@ -191,7 +199,6 @@
         }
     }
     h2 {
-        font-size: 18px !important;
         line-height: 28px !important;}
         .accordion-section p {
             font-size: 18px;
